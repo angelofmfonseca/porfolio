@@ -1,14 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Profile from "./Profile"
+import Profile from "../Profile"
+import * as S from "./styles.js"
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <header><Profile /></header>
-      <main>{children}</main>
-    </>
+    <S.LayoutWrapper>
+      <aside><Profile /></aside>
+      <S.LayoutMain>{children}</S.LayoutMain>
+    </S.LayoutWrapper>
   )
 }
 
