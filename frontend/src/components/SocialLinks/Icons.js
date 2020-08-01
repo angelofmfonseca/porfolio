@@ -1,9 +1,9 @@
 import { Github } from "@styled-icons/boxicons-logos/Github"
-import { LinkedinWithCircle } from "@styled-icons/entypo-social/LinkedinWithCircle"
+import { Linkedin } from "@styled-icons/fa-brands/Linkedin"
 
 const Icons = {
   Github,
-  LinkedinWithCircle,
+  Linkedin,
 }
 
 export default Icons
