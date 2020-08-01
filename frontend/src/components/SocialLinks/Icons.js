@@ -1,5 +1,5 @@
-import { Github } from "@styled-icons/icomoon/Github"
-import { Linkedin } from "@styled-icons/fa-brands/Linkedin"
+import { Github } from "@styled-icons/fa-brands/Github"
+import { LinkedinWithCircle as Linkedin } from "@styled-icons/entypo-social/LinkedinWithCircle"
 
 const Icons = {
   Github,
