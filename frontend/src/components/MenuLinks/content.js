@@ -1,26 +1,26 @@
 const links = [
   {
-    label: "Home",
+    label: "home",
     url: "/",
   },
   {
-    label: "About",
+    label: "sobre",
     url: "/about",
   },
   {
-    label: "Experience",
+    label: "experiências",
     url: "/experience",
   },
   {
-    label: "Skills",
+    label: "habilidades",
     url: "/skills",
   },
   {
-    label: "Blog",
+    label: "blog",
     url: "/blog",
   },
   {
-    label: "Contact",
+    label: "contact",
     url: "/contact",
   },
 ]
