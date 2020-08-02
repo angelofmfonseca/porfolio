@@ -20,6 +20,9 @@ const IndexPage = () => {
                 background
                 color
               }
+              fields {
+                slug
+              }
             }
           }
         }
@@ -43,10 +46,11 @@ const IndexPage = () => {
               background,
               color,
             },
+            fields: { slug },
           },
         }) => (
           <PostItem
-            slug="/about/"
+            slug={slug}
             background={background}
             color={color}
             category={category}
