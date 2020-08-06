@@ -14,6 +14,8 @@ const PostsQuery = `{
           category
           title
           description
+          color
+          background
         } 
         excerpt(pruneLength: 5000)
       }
